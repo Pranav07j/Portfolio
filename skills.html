@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="skillbody" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills </title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body class="skillbody">
+    <div class="snowflake"></div>
+    <div id="Iskills"><h2>HE<i>LL</i>O, Welcome to My Skill Page </h2></div>
+    
+    <p>I am a skilled software developer with expertise in multiple programming languages, including <img src="/images/7b89fda2-4af3-4ae0-98bc-ad2b65854909.webp" alt="Java">,<img src="/images/0_6c0myzTJcuOTi_vU.png" alt="JavaScript">,<img src="/images/OIP.jpeg" alt="HTML">, <img src="/images/OIP (1).jpeg" alt="CSS">,<img src="/images/Python-Logo.png" alt="Python">, and <img src="/images/OIP (2).jpeg" alt="C">. I have a strong foundation in front-end technologies like <img src="/images/download (1).jpeg" alt="React"> and backend development using <img src="images/download (2).jpeg" alt="Node.js">, <img src="/images/OIP (4).jpeg" alt="Express js">, and API integration with <img src="/images/OIP (3).jpeg" alt="PostgreSQL">. My ability to work across the full stack allows me to build dynamic, efficient, and scalable applications. Additionally, I enjoy solving algorithmic problems, which enhances my problem-solving skills and logical thinking. Beyond coding, I have a creative side with a passion for drawing and stay active by playing <img src="/images/squash-game-equipment-closeup-view_266732-15331.avif" alt="squash">squash and <img src="/images/download (3).jpeg">football.</p>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const numFlakes = 50;
+    const container = document.body;
+
+    for (let i = 0; i < numFlakes; i++) {
+        let flake = document.createElement("div");
+        flake.classList.add("snowflake");
+        flake.style.left = `${Math.random() * 100}vw`;
+        flake.style.animationDuration = `${5 + Math.random() * 5}s`; 
+        flake.style.animationDelay = `${Math.random() * 5}s`;
+        container.appendChild(flake);
+    }
+});
+
+</script>
+</body>
+
+</html>
