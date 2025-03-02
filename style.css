@@ -195,7 +195,6 @@ img{
     }
 }
 #projhead{
-    animation: snow 1s linear infinite;
     font-size: x-large;
     text-align: center;
 }
